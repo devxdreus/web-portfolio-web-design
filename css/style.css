@@ -96,3 +96,79 @@
 }
 
 /* end about area */
+
+/* brand area */
+
+.site-main .brand-area {
+  padding: 1rem 10rem;
+  margin-bottom: 4rem;
+}
+
+.site-main .brand-area .first-area .col-lg-4 {
+  display: flex;
+  justify-content: center;
+}
+
+.site-main .brand-area .single-brand {
+  border: 1px solid #201f1f17;
+  text-align: center;
+  padding: .8rem 0;
+  margin: .9rem auto;
+  width: 140px;
+  height: 100px;
+  cursor: pointer;
+  transition: .4s ease;
+  filter: grayscale(100%);
+}
+
+.site-main .brand-area .single-brand:hover {
+  box-shadow: var(--box-shadow);
+  transform: scale(1.1);
+  filter: grayscale(0%);
+}
+
+.site-main .brand-area .single-brand img {
+  height: 100%;
+}
+
+.site-main .brand-area .experience-area {
+  background-color: rgba(42, 4, 232, 0.1);
+  padding: 1.8em;
+  position: relative;
+}
+
+.site-main .brand-area .experience-area::before {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 140px;
+  height: 140px;
+  top: 20px;
+  border: 3px dashed #aaa;
+  border-radius: 6px;
+}
+
+.site-main .brand-area .experience-area span {
+  display: block;
+}
+
+.site-main .brand-area .years-area {
+  margin-bottom: 7rem;
+}
+
+.site-main .brand-area .years {
+  font: normal bold 100px/60px var(--roboto);
+  color: var(--secondary-color);
+}
+
+.site-main .brand-area .years-area h2 span {
+  font: normal 700 28px/30px var(--roboto);
+  letter-spacing: 2px;
+}
+
+.site-main .brand-area .call-area {
+  margin-bottom: 2rem;
+  margin-left: 1rem;
+}
+
+/* end brand area */
