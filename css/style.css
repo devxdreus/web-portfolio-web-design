@@ -81,6 +81,10 @@
   padding: 8rem 5rem;
 }
 
+.about-area .about-image {
+  margin-top: 30px;
+}
+
 .site-main .about-title span {
   display: block;
   font: normal bold 49px/60px var(--roboto);
