@@ -10,7 +10,7 @@
   border-radius: 4px;
 }
 
-.button.primary-button {
+/* .button.primary-button {
   background: var(--gradient-color);
   background-clip: padding-box;
   color: whitesmoke;
@@ -44,6 +44,44 @@
   background: var(--gradient-color);
   color: whitesmoke;
   box-shadow: var(--box-shadow);
+} */
+
+.button.primary-button {
+  background: transparent;
+  background-clip: padding-box;
+  color: whitesmoke;
+  transition: .4s ease;
+  box-shadow: var(--box-shadow);
+}
+
+.button.primary-button::after, .button.secondary-button::after {
+  content: '';
+  position: absolute;
+  top: -2px; bottom: -2px;
+  left: -2px; right: -2px;
+  background: var(--gradient-color);
+  border-radius: 4px;
+  z-index: -1;
+}
+
+.button.primary-button:hover {
+  background: whitesmoke;
+  background-clip: padding-box;
+  color: #222;
+}
+
+.button.secondary-button {
+  background: whitesmoke;
+  background-clip: padding-box;
+  color: #222;
+  transition: .4s ease;
+  box-shadow: var(--box-shadow);
+}
+
+.button.secondary-button:hover {
+  background: transparent;
+  background-clip: padding-box;
+  color: whitesmoke;
 }
 
 p.para {
