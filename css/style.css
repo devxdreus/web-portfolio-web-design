@@ -172,3 +172,35 @@
 }
 
 /* end brand area */
+
+/* services area */
+
+.site-main .services-area {
+  padding: 7rem 2rem;
+}
+
+.site-main .services-area .services-title {
+  padding: 0 14rem;
+}
+
+.site-main .services-area .services-title h1 {
+  font-size: 35px;
+}
+
+.site-main .services-area .service {
+  background: rgba(248, 252, 253, .973);
+  padding: 2rem 0;
+  margin: 5rem .5rem;
+  width: 16rem;
+  transition: .7s ease;
+}
+
+.site-main .services-area .service:hover {
+  box-shadow: var(--box-shadow);
+}
+
+.site-main .services-area .services-img img {
+  height: 70px;
+}
+
+/* end services area */
