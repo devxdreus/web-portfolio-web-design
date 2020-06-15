@@ -204,3 +204,40 @@
 }
 
 /* end services area */
+
+/* project area */
+
+.site-main .project-area {
+  padding: 4rem 0;
+}
+
+.site-main .project-area .button-group button {
+  background: transparent;
+  border: none;
+  font: normal 500 16px/24px var(--roboto);
+  text-transform: uppercase;
+  margin: 4rem 3rem 4rem 0;
+}
+
+.site-main .project-area .our-project .img {
+  padding-bottom: 1rem;
+}
+
+.site-main .project-area .our-project .title {
+  padding-bottom: 30px;
+}
+
+.site-main .project-area .our-project h4 {
+  font: normal 700 25px/12px var(--roboto);
+}
+
+.project-area .our-project .img a {
+  transition: .4s ease;
+}
+
+.project-area .our-project .img a:hover {
+  transition: 300ms ease;
+  filter: brightness(1.1) drop-shadow(1px 8px 30px #b1afaf);
+}
+
+/* end project area */
