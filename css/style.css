@@ -236,7 +236,6 @@
 }
 
 .project-area .our-project .img a:hover {
-  transition: 300ms ease;
   filter: brightness(1.1) drop-shadow(1px 8px 30px #b1afaf);
 }
 

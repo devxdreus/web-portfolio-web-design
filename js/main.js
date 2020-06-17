@@ -16,10 +16,9 @@ $(document).ready(function () {
 
   });
 
-  $('.project area img').ready(function () {
+  $('.project area img').on('load', function () {
     $('.project-area .button-group #btn1').trigger('click');
     console.log('ok');
-
   });
 
   $('.project-area .grid .popup-image').magnificPopup({
