@@ -16,7 +16,11 @@ $(document).ready(function () {
 
   });
 
-  $('.project-area .button-group #btn1').trigger('click');
+  $('.project area img').ready(function () {
+    $('.project-area .button-group #btn1').trigger('click');
+    console.log('ok');
+
+  });
 
   $('.project-area .grid .popup-image').magnificPopup({
     type: 'image',
