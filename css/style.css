@@ -240,3 +240,40 @@
 }
 
 /* end project area */
+
+/* about me area */
+
+.site-main .aboutme-area .about-title p {
+  padding: 1rem 7rem;
+}
+
+.site-main .aboutme-area .client {
+  background: #ffffff10;
+  box-shadow: var(--box-shadow);
+  margin: 3rem 0;
+  padding: 2rem 1rem;
+}
+
+.site-main .aboutme-area .client img {
+  border-radius: 5px;
+}
+
+.site-main .aboutme-area .about-client h4 {
+  font: normal 500 21px/20px var(--roboto);
+}
+
+.site-main .aboutme-area .about-client p {
+  font-size: 14px;
+}
+
+.site-main .aboutme-area .owl-carousel .owl-item {
+  display: flex;
+  justify-content: center;
+  padding: 0 1.5rem;
+}
+
+.site-main .aboutme-area .owl-carousel .owl-dots .owl-dot.active span {
+  background: var(--primary-color);
+}
+
+/* end about me area */
