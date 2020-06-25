@@ -7,16 +7,6 @@
   padding: 1rem 10rem;
 }
 
-.header-area .navbar-brand {
-  font-family: var(--pacifico);
-  font-size: 2.2em;
-  /* padding: 0 2rem; */
-  background: linear-gradient(45deg, #4A12B8, #9B09CF);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text
-}
-
 .header-area .nav-link {
   font-family: var(--roboto);
   font-weight: 500;
@@ -243,6 +233,10 @@
 
 /* about me area */
 
+.site-main .aboutme-area {
+  margin-top: 5rem;
+}
+
 .site-main .aboutme-area .about-title p {
   padding: 1rem 7rem;
 }
@@ -277,3 +271,70 @@
 }
 
 /* end about me area */
+
+/* subscribe me area */
+
+.site-main .subscribe-us-area .subscribe {
+  background: var(--gradient-color);
+  padding: 10rem 0;
+  margin: 3rem auto;
+  border-radius: 5px;
+}
+
+.site-main .subscribe-us-area .subscribe-title h4 {
+  font: normal 700 30px/30px var(--roboto);
+  color: whitesmoke;
+}
+
+.site-main .subscribe-us-area .subscribe-title p {
+  color: whitesmoke;
+  padding: 1rem 4rem;
+}
+
+.site-main .subscribe-us-area .input-textbox input {
+  width: 400px;
+  padding: 1.5rem 1rem;
+  border: 1px solid whitesmoke;
+  background: transparent;
+  color: white;
+  font: normal 500 17px/20px var(--roboto);
+}
+
+.site-main .subscribe-us-area .input-textbox input::placeholder {
+  color: whitesmoke;
+}
+
+.subscribe-us-area .back-icon {
+  position: relative;
+}
+
+.subscribe-us-area .back-icon i {
+  position: absolute;
+}
+
+.subscribe-us-area .back-icon i:nth-child(1) {
+  font-size: 100px;
+  color: #ddd;
+  bottom: 9rem;
+  left: 9rem;
+  transform: rotate(-25deg);
+  transform-origin: bottom;
+}
+
+.subscribe-us-area .back-icon i:nth-child(2) {
+  font-size: 42px;
+  color: #ddd;
+  bottom: 9rem;
+  left: 13rem;
+  transform: rotate(10deg);
+  transform-origin: bottom;
+}
+
+.subscribe-us-area .back-icon i:nth-child(3) {
+  font-size: 64px;
+  color: #ddd;
+  bottom: 7rem;
+  right: 11rem;
+}
+
+/* end subscribe me area */

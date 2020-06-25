@@ -57,6 +57,10 @@ p.para {
   font-family: var(--roboto);
 }
 
+.font-pacifico {
+  font-family: var(--pacifico);
+}
+
 button:focus,
 button:active
 button:hover
@@ -68,4 +72,14 @@ button:hover
 
 .title-h1 {
   font: normal bold 39px/40px var(--roboto);
+}
+
+.dreus-brand {
+  font-family: var(--pacifico);
+  font-size: 2.2em;
+  /* padding: 0 2rem; */
+  background: linear-gradient(45deg, #4A12B8, #9B09CF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text
 }
