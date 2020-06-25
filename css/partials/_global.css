@@ -83,3 +83,7 @@ button:hover
   -webkit-text-fill-color: transparent;
   background-clip: text
 }
+
+.navbar-shadow {
+  box-shadow: var(--box-shadow);
+}

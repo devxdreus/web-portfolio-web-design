@@ -57,4 +57,22 @@ $(document).ready(function () {
     }
   })
 
+  // navbar shadow
+  let navOffset = $('.header-area').height() + 50;
+
+  function navbarFixed() {
+    if ($('.header-area').length) {
+      $(window).scroll(function () {
+        let scroll = $(window).scrollTop();
+        if (scroll >= navOffset) {
+          $('.header-area .navbar').addClass('navbar-shadow');
+        } else {
+          $('.header-area .navbar').removeClass('navbar-shadow');
+        }
+      })
+    }
+  }
+
+  navbarFixed();
+
 });

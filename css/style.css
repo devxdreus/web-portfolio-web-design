@@ -7,6 +7,11 @@
   padding: 1rem 10rem;
 }
 
+.header-area .navbar {
+  background: #fff !important;
+  transition: .3s;
+}
+
 .header-area .nav-link {
   font-family: var(--roboto);
   font-weight: 500;
@@ -338,3 +343,25 @@
 }
 
 /* end subscribe me area */
+
+/* footer area */
+
+.footer-area {
+  padding: 5rem 0;
+}
+
+.footer-area .social h5 {
+  font: normal 500 23px/30px var(--roboto);
+}
+
+.footer-area .social i {
+  font-size: 22px;
+  padding: 2rem;
+  color: #bbb;
+}
+
+.footer-area .social i:hover {
+  color: var(--primary-color);
+}
+
+/* end footer area */
