@@ -37,16 +37,16 @@
 
 /* start banner area */
 
-.site-main .site-banner {
+.site-banner {
   padding: 0 10rem;
 }
 
-.site-main .site-banner h3 {
+.site-banner h3 {
   padding-top: 20%;
   font-weight: 500;
 }
 
-.site-main .site-banner h3::after {
+.site-banner h3::after {
   content: '';
   width: 18vw;
   height: 2px;
@@ -56,15 +56,15 @@
   transform: translateY(-5px);
 }
 
-.site-main .site-banner h1 {
+.site-banner h1 {
   font-size: 5rem;
 }
 
-.site-main .site-banner h4 {
+.site-banner h4 {
   font-size: 1.5rem;
 }
 
-.site-main .site-banner img {
+.site-banner img {
   width: 90rem;
 }
 
@@ -72,7 +72,7 @@
 
 /* about area */
 
-.site-main .about-area {
+.about-area {
   padding: 8rem 5rem;
 }
 
@@ -80,13 +80,13 @@
   margin-top: 30px;
 }
 
-.site-main .about-title span {
+.about-title span {
   display: block;
   font: normal bold 49px/60px var(--roboto);
   letter-spacing: 15px;
 }
 
-.site-main .about-title p {
+.about-title p {
   padding: .4rem 0;
 }
 
@@ -94,17 +94,21 @@
 
 /* brand area */
 
-.site-main .brand-area {
+.brand-area {
   padding: 1rem 10rem;
   margin-bottom: 4rem;
 }
 
-.site-main .brand-area .first-area .col-lg-4 {
+.brand-area .first-area {
+  margin-bottom: 1rem;
+}
+
+.brand-area .first-area .col-lg-4 {
   display: flex;
   justify-content: center;
 }
 
-.site-main .brand-area .single-brand {
+.brand-area .single-brand {
   border: 1px solid #201f1f17;
   text-align: center;
   padding: .8rem 0;
@@ -116,23 +120,23 @@
   filter: grayscale(100%);
 }
 
-.site-main .brand-area .single-brand:hover {
+.brand-area .single-brand:hover {
   box-shadow: var(--box-shadow);
   transform: scale(1.1);
   filter: grayscale(0%);
 }
 
-.site-main .brand-area .single-brand img {
+.brand-area .single-brand img {
   height: 100%;
 }
 
-.site-main .brand-area .experience-area {
+.brand-area .experience-area {
   background-color: rgba(42, 4, 232, 0.1);
   padding: 1.8em;
   position: relative;
 }
 
-.site-main .brand-area .experience-area::before {
+.brand-area .experience-area::before {
   content: '';
   display: block;
   position: absolute;
@@ -143,25 +147,25 @@
   border-radius: 6px;
 }
 
-.site-main .brand-area .experience-area span {
+.brand-area .experience-area span {
   display: block;
 }
 
-.site-main .brand-area .years-area {
+.brand-area .years-area {
   margin-bottom: 7rem;
 }
 
-.site-main .brand-area .years {
+.brand-area .years {
   font: normal bold 100px/60px var(--roboto);
   color: var(--secondary-color);
 }
 
-.site-main .brand-area .years-area h2 span {
+.brand-area .years-area h2 span {
   font: normal 700 28px/30px var(--roboto);
   letter-spacing: 2px;
 }
 
-.site-main .brand-area .call-area {
+.brand-area .call-area {
   margin-bottom: 2rem;
   margin-left: 1rem;
 }
@@ -170,19 +174,19 @@
 
 /* services area */
 
-.site-main .services-area {
+.services-area {
   padding: 7rem 2rem;
 }
 
-.site-main .services-area .services-title {
+.services-area .services-title {
   padding: 0 14rem;
 }
 
-.site-main .services-area .services-title h1 {
+.services-area .services-title h1 {
   font-size: 35px;
 }
 
-.site-main .services-area .service {
+.services-area .service {
   background: rgba(248, 252, 253, .973);
   padding: 2rem 0;
   margin: 5rem .5rem;
@@ -190,11 +194,11 @@
   transition: .7s ease;
 }
 
-.site-main .services-area .service:hover {
+.services-area .service:hover {
   box-shadow: var(--box-shadow);
 }
 
-.site-main .services-area .services-img img {
+.services-area .services-img img {
   height: 70px;
 }
 
@@ -202,11 +206,11 @@
 
 /* project area */
 
-.site-main .project-area {
+.project-area {
   padding: 4rem 0;
 }
 
-.site-main .project-area .button-group button {
+.project-area .button-group button {
   background: transparent;
   border: none;
   font: normal 500 16px/24px var(--roboto);
@@ -214,15 +218,15 @@
   margin: 4rem 3rem 4rem 0;
 }
 
-.site-main .project-area .our-project .img {
+.project-area .our-project .img {
   padding-bottom: 1rem;
 }
 
-.site-main .project-area .our-project .title {
+.project-area .our-project .title {
   padding-bottom: 30px;
 }
 
-.site-main .project-area .our-project h4 {
+.project-area .our-project h4 {
   font: normal 700 25px/12px var(--roboto);
 }
 
@@ -238,40 +242,40 @@
 
 /* about me area */
 
-.site-main .aboutme-area {
+.aboutme-area {
   margin-top: 5rem;
 }
 
-.site-main .aboutme-area .about-title p {
+.aboutme-area .about-title p {
   padding: 1rem 7rem;
 }
 
-.site-main .aboutme-area .client {
+.aboutme-area .client {
   background: #ffffff10;
   box-shadow: var(--box-shadow);
   margin: 3rem 0;
   padding: 2rem 1rem;
 }
 
-.site-main .aboutme-area .client img {
+.aboutme-area .client img {
   border-radius: 5px;
 }
 
-.site-main .aboutme-area .about-client h4 {
+.aboutme-area .about-client h4 {
   font: normal 500 21px/20px var(--roboto);
 }
 
-.site-main .aboutme-area .about-client p {
+.aboutme-area .about-client p {
   font-size: 14px;
 }
 
-.site-main .aboutme-area .owl-carousel .owl-item {
+.aboutme-area .owl-carousel .owl-item {
   display: flex;
   justify-content: center;
   padding: 0 1.5rem;
 }
 
-.site-main .aboutme-area .owl-carousel .owl-dots .owl-dot.active span {
+.aboutme-area .owl-carousel .owl-dots .owl-dot.active span {
   background: var(--primary-color);
 }
 
@@ -279,24 +283,24 @@
 
 /* subscribe me area */
 
-.site-main .subscribe-us-area .subscribe {
+.subscribe-us-area .subscribe {
   background: var(--gradient-color);
   padding: 10rem 0;
   margin: 3rem auto;
   border-radius: 5px;
 }
 
-.site-main .subscribe-us-area .subscribe-title h4 {
+.subscribe-us-area .subscribe-title h4 {
   font: normal 700 30px/30px var(--roboto);
   color: whitesmoke;
 }
 
-.site-main .subscribe-us-area .subscribe-title p {
+.subscribe-us-area .subscribe-title p {
   color: whitesmoke;
   padding: 1rem 4rem;
 }
 
-.site-main .subscribe-us-area .input-textbox input {
+.subscribe-us-area .input-textbox input {
   width: 400px;
   padding: 1.5rem 1rem;
   border: 1px solid whitesmoke;
@@ -305,7 +309,7 @@
   font: normal 500 17px/20px var(--roboto);
 }
 
-.site-main .subscribe-us-area .input-textbox input::placeholder {
+.subscribe-us-area .input-textbox input::placeholder {
   color: whitesmoke;
 }
 
