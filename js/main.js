@@ -51,7 +51,7 @@ $(document).ready(function () {
     responsive: {
       0: {
         items: 1
-      }, 544: {
+      }, 576: {
         items: 2
       }
     }
@@ -75,4 +75,29 @@ $(document).ready(function () {
 
   navbarFixed();
 
+
+  // responsive
+
+
 });
+
+// responsive
+$(window).on('load', function () {
+  if (window.matchMedia('(max-width: 768px)').matches) {
+    $('.project-area .button-group').addClass('d-flex');
+    $('.project-area .button-group').addClass('justify-content-between');
+  }
+});
+
+// function checkPosition() {
+//   if (window.matchMedia('(min-width: 768px)').matches) {
+//     $('.project-area .button-group').removeClass('d-flex');
+//     $('.project-area .button-group').removeClass('justify-content-between');
+//   } else {
+//     $('.project-area .button-group').addClass('d-flex');
+//     $('.project-area .button-group').addClass('justify-content-between');
+//   }
+// }
+
+// $(document).load($(window).bind("resize", checkPosition()));
+

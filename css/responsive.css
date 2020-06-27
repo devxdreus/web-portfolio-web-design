@@ -1,47 +1,48 @@
 /* xs */
 @media (max-width: 575px) {
   .site-main .site-banner {
-    padding: 0 1rem;
+    padding: 0 1rem !important;
   }
-
-  .site-banner h4 {
-    line-height: 2rem;
-  }
-
-  .about-area .w-75 {
-    width: 100% !important;
-  }
-
-  .about-area {
-    padding: 3rem 1rem;
+  
+  .site-main .about-area {
+    padding: 3rem 1rem !important;
   }
 
   .site-main .brand-area {
-    padding: 1rem 1rem;
+    padding: 3rem 1rem !important;
   }
 
-  .site-main .brand-area .first-area {
-    margin: 1rem auto;
+  .site-main .services-area {
+    padding: 3rem 1rem !important;
   }
 
-  .site-main .brand-area .experience-area {
-    padding: 2rem;
-    margin: 0 auto;
+  .site-main .project-area {
+    padding: 3rem 1rem !important;
   }
-}
 
-/* sm */
-@media (min-width: 576px) and (max-width: 767px) {
-  .site-main .site-banner {
-    padding: 0 5rem;
+  .site-main .aboutme-area {
+    padding: 3rem 1rem !important;
+  }
+
+  .site-main .subscribe-us-area {
+    padding: 3rem 1rem !important;
+  }
+
+  .footer-area {
+    padding: 3rem 1rem !important;
+  }
+
+  .site-main .site-banner h4 {
+    line-height: 2rem;
   }
 
   .site-main .about-area .w-75 {
     width: 100% !important;
   }
 
-  .site-main .brand-area {
-    padding: 1rem 4rem;
+  .site-main .about-title span {
+    font-size: 42px;
+    letter-spacing: 13px;
   }
 
   .site-main .brand-area .first-area {
@@ -52,17 +53,170 @@
     padding: 2rem;
     margin: 0 auto;
   }
+
+  .site-main .project-area .project-title h1 {
+    font-size: 2em;
+  }
+
+  .site-main .aboutme-area img {
+    border-radius: 50%;
+  }
+
+  .site-main .subscribe-us-area .back-icon i:nth-child(1) {
+    font-size: 68px;
+    bottom: 20rem !important;
+  }
+  
+  .site-main .subscribe-us-area .back-icon i:nth-child(2) {
+    font-size: 24px;
+    bottom: 20rem !important;
+  }
+
+  .site-main .subscribe-us-area .back-icon i:nth-child(3) {
+    font-size: 48px;
+    right: 7%;
+  }
+}
+
+/* sm */
+@media (max-width: 767px) {
+  .site-main .site-banner {
+    padding: 0 4rem;
+  }
+  
+  .site-main .about-area {
+    padding: 3rem 4rem;
+  }
+
+  .site-main .brand-area {
+    padding: 3rem 4rem;
+  }
+
+  .site-main .services-area {
+    padding: 3rem 4rem;
+  }
+
+  .site-main .project-area {
+    padding: 3rem 4rem;
+  }
+
+  .site-main .aboutme-area {
+    padding: 3rem 1rem;
+  }
+
+  .site-main .subscribe-us-area {
+    padding: 3rem 4rem;
+  }
+
+  .footer-area {
+    padding: 3rem 4rem;
+  }
+
+  .site-main .about-area .w-75 {
+    width: 100% !important;
+  }
+
+  .site-main .brand-area .first-area {
+    margin: 1rem auto;
+  }
+
+  .site-main .brand-area .experience-area {
+    padding: 2rem;
+    margin: 0 auto;
+  }
+
+  .site-main .services-area .services-list .service {
+    width: 16rem;
+    margin: 0 auto;
+  }
+
+  .site-main .project-area .button-group button {
+    margin-right: 0;
+    font-size: 14px;
+  }
+
+  .site-main .subscribe-us-area button.float-right {
+    float: left !important;
+  }
+
+  .site-main .subscribe-us-area .back-icon i:nth-child(1) {
+    bottom: 17rem;
+  }
+  
+  .site-main .subscribe-us-area .back-icon i:nth-child(2) {
+    bottom: 17rem;
+    left: 23%;
+  }
+
+  .subscribe-us-area form.w-50 {
+    margin: 0 auto;
+  }
+
+  .site-main .subscribe-us-area form .input-textbox input {
+    width: 100%;
+  }
 }
 
 /* md */
-@media (min-width: 768px) and (max-width: 991px) {
+@media (max-width: 991px) {
+  .site-main .about-area .about-image {
+    margin-bottom: -3rem;
+  }
 
+  .site-main .services-area .services-list .col-lg-3 {
+    padding: 15px !important;
+  }
+
+  .site-main .services-area .service {
+    width: 16rem;
+    margin: .5rem auto;
+  }
+
+  .site-main .services-area .services-title {
+    padding: 1rem 15%;
+  }
+
+  .services-area .services-list {
+    padding: 0 15%;
+  }
+
+  .aboutme-area .about-title p {
+    padding: 1rem 15%;
+  }
+
+  .subscribe-us-area form.w-50 {
+    width: 67% !important;
+  }
+
+  .subscribe-us-area .back-icon i:nth-child(1) {
+    bottom: 13rem;
+  }
+  
+  .subscribe-us-area .back-icon i:nth-child(2) {
+    bottom: 13rem;
+  }
 }
 
 /* lg */
-@media (min-width: 992px) and (max-width: 1199px) {
-  .site-main .services-area .services-title {
-    padding: 0 20%;
+@media (max-width: 1199px) {
+  .services-area .services-title {
+    padding: 0 20% 1rem;
+  }
+
+  .about-area {
+    padding: 4rem 5rem;
+  }
+
+  .services-area .service {
+    width: auto;
+  }
+
+  .site-main .services-area .col-lg-3 {
+    padding: 0 !important;
+  }
+
+  .subscribe-us-area .input-textbox input {
+    width: 325px;
   }
 }
 

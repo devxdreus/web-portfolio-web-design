@@ -38,7 +38,7 @@
 /* start banner area */
 
 .site-banner {
-  padding: 0 10rem;
+  padding: 0 10rem 3rem;
 }
 
 .site-banner h3 {
@@ -62,6 +62,8 @@
 
 .site-banner h4 {
   font-size: 1.5rem;
+  line-height: 2rem;
+  padding: 1.4rem 0;
 }
 
 .site-banner img {
@@ -73,7 +75,7 @@
 /* about area */
 
 .about-area {
-  padding: 8rem 5rem;
+  padding: 4rem 10rem;
 }
 
 .about-area .about-image {
@@ -95,8 +97,8 @@
 /* brand area */
 
 .brand-area {
-  padding: 1rem 10rem;
-  margin-bottom: 4rem;
+  padding: 4rem 10rem;
+  /* margin-bottom: 4rem; */
 }
 
 .brand-area .first-area {
@@ -175,11 +177,11 @@
 /* services area */
 
 .services-area {
-  padding: 7rem 2rem;
+  padding: 4rem 8rem;
 }
 
 .services-area .services-title {
-  padding: 0 14rem;
+  padding: 0 14rem 1rem;
 }
 
 .services-area .services-title h1 {
@@ -189,7 +191,7 @@
 .services-area .service {
   background: rgba(248, 252, 253, .973);
   padding: 2rem 0;
-  margin: 5rem .5rem;
+  margin: 1rem .5rem;
   width: 16rem;
   transition: .7s ease;
 }
@@ -210,12 +212,16 @@
   padding: 4rem 0;
 }
 
+.project-area .button-group {
+  padding: 3rem 0;
+}
+
 .project-area .button-group button {
   background: transparent;
   border: none;
   font: normal 500 16px/24px var(--roboto);
   text-transform: uppercase;
-  margin: 4rem 3rem 4rem 0;
+  margin-right: 3rem;
 }
 
 .project-area .our-project .img {
@@ -243,7 +249,7 @@
 /* about me area */
 
 .aboutme-area {
-  margin-top: 5rem;
+  padding: 4rem 0;
 }
 
 .aboutme-area .about-title p {
@@ -259,6 +265,7 @@
 
 .aboutme-area .client img {
   border-radius: 5px;
+  margin-bottom: 1rem;
 }
 
 .aboutme-area .about-client h4 {
@@ -267,6 +274,7 @@
 
 .aboutme-area .about-client p {
   font-size: 14px;
+  font-style: italic;
 }
 
 .aboutme-area .owl-carousel .owl-item {
@@ -286,7 +294,7 @@
 .subscribe-us-area .subscribe {
   background: var(--gradient-color);
   padding: 10rem 0;
-  margin: 3rem auto;
+  margin: 4rem auto;
   border-radius: 5px;
 }
 
@@ -297,7 +305,7 @@
 
 .subscribe-us-area .subscribe-title p {
   color: whitesmoke;
-  padding: 1rem 4rem;
+  padding: 1rem 3rem 2rem;
 }
 
 .subscribe-us-area .input-textbox input {
@@ -307,6 +315,7 @@
   background: transparent;
   color: white;
   font: normal 500 17px/20px var(--roboto);
+  margin-bottom: 1rem;
 }
 
 .subscribe-us-area .input-textbox input::placeholder {
@@ -325,7 +334,7 @@
   font-size: 100px;
   color: #ddd;
   bottom: 9rem;
-  left: 9rem;
+  left: 12%;
   transform: rotate(-25deg);
   transform-origin: bottom;
 }
@@ -334,7 +343,7 @@
   font-size: 42px;
   color: #ddd;
   bottom: 9rem;
-  left: 13rem;
+  left: 18%;
   transform: rotate(10deg);
   transform-origin: bottom;
 }
@@ -343,7 +352,7 @@
   font-size: 64px;
   color: #ddd;
   bottom: 7rem;
-  right: 11rem;
+  right: 15%;
 }
 
 /* end subscribe me area */
@@ -360,7 +369,7 @@
 
 .footer-area .social i {
   font-size: 22px;
-  padding: 2rem;
+  padding: 1.8rem;
   color: #bbb;
 }
 
