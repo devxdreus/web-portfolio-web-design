@@ -41,8 +41,8 @@
   }
 
   .site-main .about-title span {
-    font-size: 42px;
-    letter-spacing: 13px;
+    font-size: 38px;
+    letter-spacing: 11px;
   }
 
   .site-main .brand-area .first-area {
@@ -159,6 +159,10 @@
 
 /* md */
 @media (max-width: 991px) {
+  .site-banner img {
+    margin: -4rem auto;
+  }
+
   .site-main .about-area .about-image {
     margin-bottom: -3rem;
   }
