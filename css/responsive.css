@@ -49,9 +49,32 @@
     margin: 1rem auto;
   }
 
-  .site-main .brand-area .experience-area {
-    padding: 2rem;
+  .site-main .brand-area .row .experience-area {
+    padding: 1rem;
     margin: 0 auto;
+  }
+
+  .site-main .brand-area .years {
+    font-size: 80px;
+  }
+
+  .site-main .brand-area .years-area span {
+    font-size: 1.2rem;
+    font-weight: 900;
+    color: #444;
+  }
+
+  .site-main .brand-area .call-now a {
+    font-size: 1.2rem !important;
+  }
+
+  .site-main .brand-area .call-area span i {
+    font-size: 2rem;
+    margin-top: .5rem;
+  }
+
+  .site-main .brand-area .call-now span {
+    font-size: .8rem !important;
   }
 
   .site-main .project-area .project-title h1 {
@@ -75,6 +98,10 @@
   .site-main .subscribe-us-area .back-icon i:nth-child(3) {
     font-size: 48px;
     right: 7%;
+  }
+
+  .footer-area .social-icon {
+    width: 100% !important;
   }
 }
 

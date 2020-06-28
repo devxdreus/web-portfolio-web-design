@@ -191,6 +191,8 @@
 
 .services-area .services-title h1 {
   font-size: 35px;
+  line-height: 42px;
+  padding-bottom: 1rem;
 }
 
 .services-area .service {
@@ -372,9 +374,15 @@
   font: normal 500 23px/30px var(--roboto);
 }
 
+.footer-area .social-icon {
+  padding: 1rem 0;
+  width: 25rem;
+  margin: 0 auto;
+}
+
 .footer-area .social i {
   font-size: 22px;
-  padding: 1.8rem;
+  /* padding: 1.8rem; */
   color: #bbb;
 }
 
