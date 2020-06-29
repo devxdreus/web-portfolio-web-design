@@ -224,11 +224,11 @@
 }
 
 .project-area .button-group button {
-  background: transparent;
-  border: none;
+  /* background: transparent;
+  border: none; */
   font: normal 500 16px/24px var(--roboto);
   text-transform: uppercase;
-  margin-right: 3rem;
+  margin-right: 1rem;
 }
 
 .project-area .our-project .img {
@@ -282,6 +282,7 @@
 .aboutme-area .about-client p {
   font-size: 14px;
   font-style: italic;
+  font-weight: 400;
 }
 
 .aboutme-area .owl-carousel .owl-item {
@@ -298,10 +299,13 @@
 
 /* subscribe me area */
 
+.subscribe-us-area {
+  padding: 4rem 0;
+}
+
 .subscribe-us-area .subscribe {
   background: var(--gradient-color);
   padding: 10rem 0;
-  margin: 4rem auto;
   border-radius: 5px;
 }
 

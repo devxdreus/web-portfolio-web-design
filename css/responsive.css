@@ -157,9 +157,20 @@
     margin: 0 auto;
   }
 
+  .site-main .project-area .button-item {
+    width: 6rem;
+  }
+
+  .site-main .project-area .button-group {
+    padding: 3rem 0 1rem;
+  }
+
   .site-main .project-area .button-group button {
-    margin-right: 0;
+    margin: 0 .8rem .8rem 0;
     font-size: 14px;
+    line-height: 14px;
+    font-weight: 300;
+    border-radius: 15px;
   }
 
   .site-main .subscribe-us-area button.float-right {

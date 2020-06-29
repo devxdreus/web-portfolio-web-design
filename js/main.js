@@ -85,7 +85,14 @@ $(document).ready(function () {
 $(window).on('load', function () {
   if (window.matchMedia('(max-width: 768px)').matches) {
     $('.project-area .button-group').addClass('d-flex');
+    $('.project-area .button-group').addClass('flex-wrap');
     $('.project-area .button-group').addClass('justify-content-between');
+  }
+
+  if (window.matchMedia('(max-width: 576px)').matches) {
+    $('.project-area .button-group button').addClass('btn');
+    $('.project-area .button-group button').addClass('btn-light');
+    $('.project-area .button-group').removeClass('justify-content-between');
   }
 });
 
