@@ -171,6 +171,8 @@
     line-height: 14px;
     font-weight: 300;
     border-radius: 15px;
+    background-color: #f8f9fa;
+    border-color: 1px solid #f8f9fa;
   }
 
   .site-main .subscribe-us-area button.float-right {

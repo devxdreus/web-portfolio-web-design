@@ -224,11 +224,11 @@
 }
 
 .project-area .button-group button {
-  /* background: transparent;
-  border: none; */
+  background: transparent;
+  border: none;
   font: normal 500 16px/24px var(--roboto);
   text-transform: uppercase;
-  margin-right: 1rem;
+  margin-right: 3rem;
 }
 
 .project-area .our-project .img {
